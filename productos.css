@@ -1,0 +1,67 @@
+.servicios{
+    width: 1040px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.servicios li {
+    background-color: #ffd7ab;
+    border-radius: 12px;
+    display: inline-block;
+    margin: 0 1.5%;
+    text-align: center;
+    height: 400px;
+    width: 30%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    vertical-align: top;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+    cursor: pointer;
+}
+
+.servicios li:hover {
+    border: 3px solid rgb(204, 204, 31);
+}
+
+.servicios li:active {
+    border: 3px solid #fff;
+    
+}
+
+.servicios h2 {
+    color: #000;
+    font-family: 'Cookie', cursive;
+    font-size: 40px;
+}
+
+.servicios li:hover h2 {
+    color: rgb(204, 204, 31);
+    font-size: 45px;
+}
+
+
+.imagenServicio {
+    margin: 30px 0;
+    width: 150px;
+
+}
+
+.imagenServicio2 {
+    margin: 15px 0;
+    width: 175px;
+}
+
+.servicioTexto {
+    font-weight: 500;
+    font-size: 18px;
+    font-family: 'Playfair Display', serif;
+}
+
+.servicioPrecio{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}

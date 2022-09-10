@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/barberia/reset.css">
+    <link rel="stylesheet" href="/barberia/styles.css">
+    <link rel="stylesheet" href="/barberia/contacto.css">
+    <link rel="shortcut icon" href="/barberia/images/icon.png" type="image/x-icon">
+    <title>Contacto | Barbería Alura</title>
+</head>
+<body>
+    <header class="encabezado">
+        <h1><img src="/barberia/images/logo-blanco.png" alt="logo de pagina"></h1>
+        <nav>
+            <ul class="nav">
+                <li><a href="/barberia/index.html">Home</a></li>
+                <li><a href="/barberia/productos.html">Productos</a></li>
+                <li><a href="/barberia/contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="mainForm">
+        <form action="">
+            <fieldset class="sectionForm">
+                <legend>Dejános tu información para contactarte</legend>
+                <div>
+                    <label for="nombreCompleto">Nombre Completo (*)</label>
+                    <input class="input-padron" type="text" id="nombreCompleto" placeholder="Nombre Completo" required>
+                </div>
+    
+                <div>
+                    <label for="correoPersonal">Correo Personal (*)</label>
+                    <input class="input-padron" type="email" id="correoPersonal" placeholder="example@correo.com" required>
+                </div>
+    
+                <div>
+                    <label for="numeroTelefono">Numero De Teléfono (*)</label>
+                    <input class="input-padron" type="tel" id="numeroTelefono" placeholder="(XX)-(XXX XXX XXXX)" required>
+                </div>
+
+                <div>
+                    <label for="comentario">Comentarios</label>
+                    <textarea class="input-padron" id="comentario" cols="70" rows="10"></textarea>
+                </div>
+                    
+                
+            </fieldset>
+
+            <fieldset class="sectionForm">
+                <legend>¿Como le gustaría ser contactado?</legend>
+
+                <label for="radio-email"><input type="radio" name="contacto" value="email" id="radio-email">Email</label>
+
+                <label for="radio-telefono"><input type="radio" name="contacto" value="telefono" id="radio-telefono">Telefono</label>
+
+                <label for="radio-whatsApp">  <input type="radio" name="contacto" value="whatsApp" id="radio-whatsApp" checked>WhatsApp</label>
+                <div>
+                    <label>¿En que horario prefiere ser contactado?</label>
+                    <select>
+                        <option value="Mañana">Mañana</option>
+                        <option value="Tarde">Tarde</option>
+                        <option value="Noche">Noche</option>
+                    </select>
+                </div>
+
+
+                <label class="labelCheckbox"><input type="checkbox" class="checkbox" checked>¿Le gustaría recibir novedades de nuestros servicios?</label>
+            </fieldset>
+
+            <div class="botonContainer">
+                <input class="botonEnviar" type="submit" value="Enviar">
+            </div>
+                
+        </form>
+
+        <section class="tableContainer">
+            <h3>Conoce nuestros horarios de atención</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Día</th>
+                        <th>Horario</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    
+                <tr>
+                    <td>Lunes</td>
+                    <td>8am - 8pm</td>
+                </tr>
+
+                <tr>
+                    <td>Martes</td>
+                    <td>8am - 8pm</td>
+                </tr>
+
+                <tr>
+                    <td>Miércoles</td>
+                    <td>10am - 8pm</td>
+                </tr>
+
+
+                <tr>
+                    <td>Jueves</td>
+                    <td>8am - 8pm</td>
+                </tr>
+
+                <tr>
+                    <td>Viernes</td>
+                    <td>8am - 7pm</td>
+                </tr>
+
+                <tr>
+                    <td>Sábado</td>
+                    <td>9am - 8pm</td>
+                </tr>
+
+                <tr>
+                    <td>Domingos</td>
+                    <td>No hay servicio</td>
+                </tr>
+                
+                <tr>
+                    <td>Festivos</td>
+                    <td>10am - 5pm</td>
+                </tr>
+                </tbody>
+               
+
+            </table>
+        </section>
+    </main>
+    <footer>
+        <img class="imagenFooter" src="/barberia/images/logo.png" alt="logo barbaria negro">
+        <p class="parrafoFooter">&#9400 Barbería Alura 2022</p>
+    </footer>
+</body>
+</html>
+
+

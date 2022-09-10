@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&family=Rubik+Maze&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Playfair+Display:ital@1&family=Rubik+Maze&display=swap');
+
+body {
+    background-color: #320000;
+    padding: 10px;
+}
+
+header{
+
+    background-color: rgba(0, 0, 0, .6);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 150px;
+}
+
+nav {
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin-left: 15px;
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    color: #fff;
+    font-family: 'Rubik Maze', cursive;
+    font-size: 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav ul li a:hover {
+    text-shadow: 0px 5px 5px #fff;
+}
+
+footer{
+    background: url(/barberia/images/bg.jpg);
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+    font-size: 25px;
+    margin: 0;
+}
+
+.imagenFooter {
+    background-color: #fff;
+    border-radius: 55%;
+    -webkit-border-radius: 55%;
+    -moz-border-radius: 55%;
+    -ms-border-radius: 55%;
+    -o-border-radius: 55%;
+}
+
+.parrafoFooter{
+    margin-top: 20px;
+}
+
+@media (max-width:580px) {
+    header{
+        display: block;
+    }
+    
+    h1{
+        text-align: center;
+    }
+
+    .logo {
+        width: 130px;
+    }
+
+    nav{
+        padding-bottom: 20px;
+    }
+    nav li{
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    nav ul li a {
+        font-size: 25px;
+    }
+
+    footer{
+        margin: 25px 0;
+    }
+
+    .imagenFooter{
+        width: 120px;
+    }
+    .parrafoFooter{
+        font-size: 18px;
+    }
+}
+
+@media (min-width:684px) {
+
+    header{
+        gap: 0;
+    }
+
+    .logo {
+        width: 120px;
+    }
+
+    nav li{
+        display: inline;
+        margin-bottom: 5px;
+    }
+
+    nav ul li a {
+        font-size: 25px;
+    }
+}
+
+@media (min-width:830px) {
+    .logo {
+        width: 177px;
+    }
+  
+    nav ul li a {
+        font-size: 30px;
+    }
+}
